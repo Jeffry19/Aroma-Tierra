@@ -23,12 +23,13 @@ body {
   color: var(--color-text-dark);
   width: 100%;
   background-color: var(--color-bg);
+  overflow-x: hidden;
 }
 .navbar {
   padding: 5% 0% !important;
 }
 .navbar img {
-  width: 50%;
+  width: 150px;
 }
 
 .navbar a {
@@ -78,11 +79,13 @@ body {
   .navbar-nav {
     text-align: right !important;
   }
+
   .hero-text {
     top: 50%;
-    left: 55%;
+    left: 50%;
     text-align: start;
     width: 100%;
+    padding: 0% 5%;
   }
   .hero-text h3 {
     width: 40%;
@@ -201,6 +204,13 @@ ul {
   .card-esencia {
     margin-bottom: 20px;
   }
+
+  .container-text-Bienvenida {
+    padding: 6% 4%;
+  }
+  .text-bienvenida {
+    font-size: 1rem;
+  }
 }
 
 /* Seccion de sevicios */
@@ -248,9 +258,6 @@ ul {
   width: fit-content;
   font-weight: var(--grosor-letra-base);
   font-size: var(--tamano-letra-base);
- 
-
-  
 }
 
 @media (max-width: 992px) {
