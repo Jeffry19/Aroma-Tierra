@@ -25,9 +25,25 @@ body {
   background-color: var(--color-bg);
   overflow-x: hidden;
 }
+
+/* Navbar y Hero Section */
 .navbar {
   padding: 5% 0% !important;
 }
+
+/* Estado normal */
+#navbar {
+  transition: 0.4s ease;
+}
+
+/* Cuando se hace scroll */
+.navbar-scroll {
+  margin: 0% !important;
+  padding: 2% 0 !important;
+  background-color: rgba(20, 20, 20, 0.9) !important;
+  backdrop-filter: blur(6px); /* opcional efecto vidrio */
+}
+
 .navbar img {
   width: 150px;
 }
@@ -69,6 +85,21 @@ body {
 }
 
 @media (max-width: 992px) {
+  .navbar {
+    background-color: var(--color-primary) !important;
+  }
+  .navbar-scroll {
+    background-color: var(--color-primary) !important;
+    color: var(--color-accent) !important;
+  }
+
+  .navbar-scroll .nav-link {
+    color: var(--color-text) !important;
+  }
+  .navbar-scroll .nav-link:hover {
+    color: var(--color-accent) !important;
+  }
+
   .navbar img {
     width: 170px;
   }
