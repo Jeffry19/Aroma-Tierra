@@ -97,6 +97,12 @@ body {
   }
 }
 
+@media (max-width: 844px) {
+  .hero-text {
+    top: 53%;
+  }
+}
+
 /* Seccion de bienvenida */
 
 .container-text-Bienvenida {
