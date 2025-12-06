@@ -253,6 +253,14 @@ ul {
   .servicio-info {
     padding: 2rem 0; /* Ajustar el padding */
   }
+
+  .grid-servicios {
+    gap: 2rem; /* Reducir el espacio entre las tarjetas */
+  }
+  .servicio-info h3 {
+    border-bottom: 2px solid var(--color-accent);
+    width: fit-content;
+  }
 }
 
 /* Footer */
