@@ -1,0 +1,50 @@
+.container-descrip-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6% 16%;
+}
+.section-descrip-menu h2 {
+  border-bottom: 2px solid var(--color-accent);
+  font-weight: var(--grosor-letra-tiulos);
+}
+.section-descrip-menu p {
+  margin-top: 2%;
+  font-size: var(--tamano-letra-base);
+  line-height: 1.9;
+  color: var(--color-muted);
+  font-weight: var(--grosor-letra-textos);
+  text-align: justify;
+}
+
+.container-menu {
+  display: flex;
+  justify-content: start;
+  padding-left: 15%;
+}
+.container-menu-aside ul {
+  list-style: none !important; /* Quitar los puntos de la lista */
+}
+.container-menu-aside {
+  width: 60%;
+  
+}
+
+.menu-cat {
+  
+  width: 65%;
+}
+.menu-cate-bebidas,
+.menu-cate-alimentos {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.menu-cate-bebidas img,
+.menu-cate-alimentos img {
+  height: 100%;
+  width: 30%;
+  border-radius: 50%;
+  object-fit: cover;
+}

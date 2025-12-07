@@ -26,6 +26,8 @@ body {
   overflow-x: hidden;
 }
 
+
+
 /* Navbar y Hero Section */
 .navbar {
   padding: 5% 0% !important;
@@ -39,7 +41,7 @@ body {
 /* Cuando se hace scroll */
 .navbar-scroll {
   margin: 0% !important;
-  padding: 2% 0 !important;
+  padding: 0% 0 !important;
   background-color: rgba(20, 20, 20, 0.9) !important;
   backdrop-filter: blur(6px); /* opcional efecto vidrio */
 }

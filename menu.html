@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,10 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
     />
     <link rel="stylesheet" href="./styles/index.css" />
-
-    <title>Aroma & Tierra</title>
+    <link rel="stylesheet" href="./styles/menu.css" />
+    <title>Menu</title>
   </head>
-  <body >
+  <body>
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top start-0 w-100"
       id="navbar"
@@ -44,10 +44,12 @@
         >
           <ul class="navbar-nav mb-2 mb-lg-0 gap-4">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./menu.html">Menu</a>
+              <a class="nav-link" href="menu.html">Menu</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Acerca Nosotros</a>
@@ -63,143 +65,122 @@
     <header>
       <section class="hero">
         <div>
-          <img src="/img/hero-foto.jpg" alt="" />
+          <img src="/img/hero-menu.jpeg" alt="" />
         </div>
         <div class="hero-text">
-         
-          <h2>
-            Un punto de encuentro donde el diseño, el sabor y la calma conviven.
-          </h2>
+          <h2>Menu</h2>
         </div>
       </section>
     </header>
-
     <main>
-      <section class="section-bienvenida">
-        <div class="container-text-Bienvenida">
-          <div class="text-bienvenida">
-            <span>
-              Bienvenido a Aroma & Tierra, un café inspirado en la pasión
-              costarricense por el buen grano y la esencia de compartir. Somos
-              un lugar pensado para desconectarte del ruido, saborear el momento
-              y vivir una experiencia donde el tiempo parece detenerse. Cada
-              café está preparado con granos seleccionados de cosechas
-              artesanales y métodos de extracción que resaltan su carácter:
-              suave, intenso, afrutado o achocolatado. Acompaña tu bebida con
-              nuestros postres recién horneados, emparedados gourmet o nuestras
-              opciones saludables. Aquí, el café no es solo café… es la excusa
-              perfecta para crear recuerdos.
-            </span>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-esencia">
-        <div class="container-esencia">
-          <span class="tag-esencia">Nuestra esencia</span>
-          <h2 class="title-esencia">Café, cultura y comunidad</h2>
-          <p class="intro-esencia">
-            En Aroma & Tierra creemos en apoyar a productores locales, impulsar
-            la cultura del café y ofrecer un ambiente cómodo y moderno. Nuestro
-            espacio cuenta con áreas interiores y terraza, WiFi gratuito,
-            estaciones de carga, música suave y atención personalizada.
+      <section class="section-descrip-menu">
+        <div class="container-descrip-menu">
+          <h2>Un menú inspirado en ingredientes frescos y locales.</h2>
+          <p>
+            Desde el espresso más intenso hasta la bebida más dulce y
+            refrescante, nuestro menú está diseñado para complacer todos los
+            gustos. Postres caseros, opciones veganas, desayunos, platos ligeros
+            y panadería artesanal recién salida del horno.
           </p>
+        </div>
+      </section>
 
-          <div class="container-card-esencia">
-            <div class="card-esencia">
-              <h3>Misión</h3>
-              <p>
-                Crear experiencias memorables mediante productos de alta calidad
-                y un servicio cercano y humano.
-              </p>
+      <section class="section-menu">
+        <div class="container-menu">
+          <aside class="menu-aside">
+            <div class="container-menu-aside">
+              <div>
+                <h3>Bebidas</h3>
+                <ul>
+                  <li>Café caliente</li>
+                  <li>Café Frio</li>
+                  <li>Te caliente</li>
+                  <li>Te Frio</li>
+                  <li>Refrescos</li>
+                  <li>Chocolate caliente, limonadas etc</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Alimentos</h3>
+                <ul>
+                  <li>Desayuno</li>
+                  <li>Panaderia</li>
+                  <li>Golosinas</li>
+                  <li>Almuerzos</li>
+                  <li>Bocados ligeros</li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+          <div class="menu-cat">
+            <div>
+              <h2>Menu</h2>
+
+              <h3>Bebidas</h3>
+              <div class="menu-cate-bebidas">
+                <div>
+                  <img src="./img/Cafelate.png" alt="CafeCaliente" />
+                  <span>Cafe Caliente </span>
+                </div>
+                <div>
+                  <img src="./img/cafelate.png" alt="CafeFrio" />
+                  <span>Cafe Frio </span>
+
+              </div>
+
             </div>
 
-            <div class="card-esencia">
-              <h3>Visión</h3>
-              <p>
-                Convertirnos en un punto de encuentro referente para los amantes
-                del café y la cultura en la ciudad.
-              </p>
-            </div>
-
-            <div class="card-esencia card-valores">
-              <h3>Valores</h3>
-              <ul class="chips-valores">
-                <li>Pasión</li>
-                <li>Calidad</li>
-                <li>Responsable</li>
-                <li>Cercanía</li>
-                <li>Innovación</li>
-                <li>Cultura local</li>
-              </ul>
+            <div>
+              <h3>Alimentos</h3>
+              <div class="menu-cate-alimentos">
+                <div >
+                    <img src="" alt="Desayuno" />
+                    <span>Desayuno </span>
+                </div>
+                <div>
+                    <img src="" alt="Panaderia" />
+                    <span>Panaderia </span>
+              </div>
+              <div>
+                <img src="" alt="Golosinas">
+                <span>Golosinas</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <pre>
 
-      <section class="section-servicios">
-        <div class="container-servicios">
-          <h2 class="title-servicios">Lo que ofrecemos</h2>
 
-          <div class="grid-servicios">
-            <div class="card-servicio">
-              <img
-                src="https://media.scoolinary.app/blog/images/2022/08/scoolinary-cafe-de-especialidad4.jpg"
-                alt="Img"
-                class="img-servicio"
-              />
-              <div class="servicio-info">
-                <h3>Café de especialidad</h3>
-                <p>
-                  Granos seleccionados, molidos al instante y extraídos con
-                  métodos como Chemex, V60 y espresso.
-                </p>
-              </div>
-            </div>
 
-            <div class="card-servicio">
-              <div class="servicio-info">
-                <h3>Panadería artesanal</h3>
-                <p>Croissants, brownies, panes dulces y opciones sin gluten.</p>
-              </div>
-              <img
-                src="https://liveinsanmiguel.com/wp-content/uploads/2024/11/assorted-pastries-arranged-in-dispaly.webp"
-                alt="Img"
-                class="img-servicio"
-              />
-            </div>
 
-            <div class="card-servicio">
-              <img
-                src="./img/espaciotrabajo.jpg"
-                alt="Img"
-                class="img-servicio"
-              />
-              <div class="servicio-info">
-                <h3>Espacio para trabajar</h3>
-                <p>
-                  WiFi de alta velocidad, enchufes accesibles y mesas amplias.
-                </p>
-              </div>
-            </div>
 
-            <div class="card-servicio">
-              <div class="servicio-info">
-                <h3>Rincón de lectura</h3>
-                <p>
-                  Intercambio de libros, club de lectura y espacio de
-                  inspiración.
-                </p>
-              </div>
-              <img
-                src="https://muchosnegociosrentables.com/wp-content/uploads/2021/01/como-montar-una-libreria-cafe.jpg"
-                alt="Img"
-                class="img-servicio"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            ejemplo
+        </pre
+      >
     </main>
 
     <footer class="footer">
