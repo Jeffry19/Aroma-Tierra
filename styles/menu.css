@@ -1,3 +1,39 @@
+/* Header */
+.hero-text-about{
+  position: absolute;
+  top: 390px;
+  left: 650px;
+  width: 40%;
+}
+
+.hero-text-about h3{
+  color: var(--color-accent);
+  border-bottom: 1px solid var(--color-accent);
+  font-size: var(--tamano-letra-base);
+
+}
+
+.hero-text-about h2{
+  color: var(--color-bg-secondary);
+}
+@media (max-width: 992px) {
+  .hero-text-about{
+   
+    left: 160px;
+    width: 60%;
+    top: 100px;
+    
+
+  }
+  .header-about img{
+    object-fit: cover;
+    height: 300px;
+  }
+  
+}
+
+
+
 /* Seccion descripcion de menu */
 .container-descrip-menu {
   display: flex;
@@ -170,6 +206,23 @@ main {
   background-color: #f2e7de; /* tono café suave */
 }
 
+.container-interior-manifiesto,
+.container-interior-manifiesto2 {
+  border: 1px solid rgba(199, 126, 86, 0.25);
+  background-color: var(--color-bg-secondary);
+  border-radius: 15px;
+  padding: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.container-interior-manifiesto p,
+.container-interior-manifiesto2 p {
+  margin: 0;
+  font-size: var(--tamano-letra-base);
+  font-weight: var(--grosor-letra-textos);
+  color: var(--color-text-dark);
+}
+
 .container-manifiesto-about h2 {
   text-transform: uppercase;
   color: var(--color-primary);
@@ -196,6 +249,15 @@ main {
   background-color: var(--color-bg);
 }
 
+.container-compromiso-about{
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  width: 80%;
+  gap: 50%;
+}
+
+
 .container-compromiso-about h2 {
   text-transform: uppercase;
   color: var(--color-primary);
@@ -205,32 +267,26 @@ main {
   margin-bottom: 2rem;
 }
 
-.container-interior-manifiesto,
-.container-interior-manifiesto2 {
-  border: 1px solid rgba(199, 126, 86, 0.25);
-  background-color: var(--color-bg-secondary);
-  border-radius: 15px;
-  padding: 1.8rem;
-  margin-bottom: 2rem;
-  
-}
-
-.container-interior-manifiesto p,
-.container-interior-manifiesto2 p {
-  margin: 0;
-  font-size: var(--tamano-letra-base);
-  font-weight: var(--grosor-letra-textos);
-  color: var(--color-text-dark);
-}
-
-.section-compromiso p:last-child {
+.section-compromiso ul:last-child {
   max-width: 650px;
   margin: 0 auto;
-  color: var(--color-accent);
+  font-size: var(--tamano-letra-base);
+  color: var(--color-muted);
+  font-weight: var(--grosor-letra-textos);
   font-style: italic;
+  list-style: disc;
+ 
 }
 
+.section-compromiso p{
+  margin-top: 7%;
+  font-size: var(--tamano-letra-titulos);
+  text-align: center;
+}
+.section-compromiso p:hover{
+  border-bottom: 10px solid var(--color-accent);
 
+}
 
 /* ======================= */
 /* RESPONSIVO */
