@@ -101,3 +101,150 @@
     padding-top: 10%;
   }
 }
+
+/* Css de la pagina de about */
+
+/* === SOBRE NOSOTROS === */
+
+/* General */
+main {
+  background-color: var(--color-bg);
+  color: var(--color-text-dark);
+}
+
+/* ======================= */
+/* SECTION - DESCRIPCIÓN ABOUT */
+/* ======================= */
+.section-descrip-about {
+  padding: 5rem 1.5rem;
+}
+
+.container-descrip-about .container-interior-descrip img {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  object-fit: cover;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
+}
+
+.container-text-about p {
+  font-size: var(--tamano-letra-base);
+  font-weight: var(--grosor-letra-textos);
+  line-height: 1.8;
+  max-width: 480px;
+  margin: 0 auto;
+  color: var(--color-muted);
+}
+
+/* ======================= */
+/* SECTION FILOSOFÍA */
+/* ======================= */
+.section-filosofia {
+  padding: 5rem 1.5rem;
+  background-color: var(--color-bg-secondary);
+}
+
+.container-filosofia-about h2 {
+  text-transform: uppercase;
+  color: var(--color-primary);
+  letter-spacing: 0.08em;
+  font-size: var(--tamano-letra-titulos);
+  font-weight: var(--grosor-letra-tiulos);
+  margin-bottom: 1.5rem;
+}
+
+.container-filosofia-about p {
+  font-size: var(--tamano-letra-base);
+  color: var(--color-muted);
+  font-weight: var(--grosor-letra-textos);
+  line-height: 1.9;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* ======================= */
+/* SECTION MANIFIESTO */
+/* ======================= */
+.section-manifiesto {
+  padding: 5rem 1.5rem;
+  background-color: #f2e7de; /* tono café suave */
+}
+
+.container-manifiesto-about h2 {
+  text-transform: uppercase;
+  color: var(--color-primary);
+  letter-spacing: 0.08em;
+  font-size: var(--tamano-letra-titulos);
+  font-weight: var(--grosor-letra-tiulos);
+  margin-bottom: 1.5rem;
+}
+
+.container-manifiesto-about p {
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.9;
+  font-size: var(--tamano-letra-base);
+  color: var(--color-muted) !important;
+  font-weight: var(--grosor-letra-textos);
+}
+
+/* ======================= */
+/* SECTION COMPROMISO */
+/* ======================= */
+.section-compromiso {
+  padding: 5rem 1.5rem;
+  background-color: var(--color-bg);
+}
+
+.container-compromiso-about h2 {
+  text-transform: uppercase;
+  color: var(--color-primary);
+  letter-spacing: 0.08em;
+  font-size: var(--tamano-letra-titulos);
+  font-weight: var(--grosor-letra-tiulos);
+  margin-bottom: 2rem;
+}
+
+.container-interior-manifiesto,
+.container-interior-manifiesto2 {
+  border: 1px solid rgba(199, 126, 86, 0.25);
+  background-color: var(--color-bg-secondary);
+  border-radius: 15px;
+  padding: 1.8rem;
+  margin-bottom: 2rem;
+  
+}
+
+.container-interior-manifiesto p,
+.container-interior-manifiesto2 p {
+  margin: 0;
+  font-size: var(--tamano-letra-base);
+  font-weight: var(--grosor-letra-textos);
+  color: var(--color-text-dark);
+}
+
+.section-compromiso p:last-child {
+  max-width: 650px;
+  margin: 0 auto;
+  color: var(--color-accent);
+  font-style: italic;
+}
+
+
+
+/* ======================= */
+/* RESPONSIVO */
+/* ======================= */
+@media (max-width: 768px) {
+  .section-descrip-about,
+  .section-filosofia,
+  .section-manifiesto,
+  .section-compromiso {
+    padding: 3.2rem 1rem;
+  }
+
+  .container-experiencia-about .container-interior-experiencia span {
+    font-size: 1.2rem;
+    padding: 0.7rem 1.3rem;
+  }
+}
