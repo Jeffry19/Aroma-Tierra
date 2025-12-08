@@ -320,3 +320,145 @@ main {
     padding: 0.7rem 1.3rem;
   }
 }
+
+
+
+
+
+
+
+/* CSS contactenos */
+
+
+/* CONTACTO */
+
+/* Hero simple */
+.section-contact-hero {
+  padding: 4rem 1.5rem 2rem;
+  background-color: var(--color-bg);
+}
+
+.container-contact-hero h1 {
+  font-size: calc(var(--tamano-letra-titulos) + 0.5rem);
+  font-weight: var(--grosor-letra-tiulos);
+  color: var(--color-primary);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.container-contact-hero p {
+  margin-top: 1rem;
+  font-size: var(--tamano-letra-base);
+  color: var(--color-muted);
+}
+
+/* Tarjetas de info de contacto */
+.section-contact-info {
+  padding: 2rem 1.5rem 4rem;
+  background-color: var(--color-bg-secondary);
+}
+
+.contact-card {
+  background-color: var(--color-bg);
+  border-radius: 16px;
+  padding: 1.8rem 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.contact-card h3 {
+  font-size: 1.1rem;
+  font-weight: var(--grosor-letra-tiulos);
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.8rem;
+}
+
+.contact-card p {
+  margin: 0;
+  color: var(--color-text-dark);
+  font-size: 0.95rem;
+}
+
+/* Sección formulario */
+.section-contact-form {
+  padding: 4rem 1.5rem;
+  background-color: var(--color-bg);
+}
+
+.container-contact-copy h2 {
+  font-size: var(--tamano-letra-titulos);
+  font-weight: var(--grosor-letra-tiulos);
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.container-contact-copy p {
+  font-size: var(--tamano-letra-base);
+  font-weight: var(--grosor-letra-textos);
+  color: var(--color-muted);
+  line-height: 1.8;
+}
+
+.container-contact-copy .contact-note {
+  margin-top: 1.2rem;
+  color: var(--color-primary);
+}
+
+/* Formulario */
+.contact-form {
+  background-color: var(--color-bg-secondary);
+  border-radius: 18px;
+  padding: 2rem 1.8rem;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form .form-label {
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+.contact-form .form-control,
+.contact-form .form-select {
+  border-radius: 10px;
+  border: 1px solid rgba(208, 180, 159, 0.7); /* color-secondary suave */
+  font-size: 0.98rem;
+}
+
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 0.15rem rgba(199, 126, 86, 0.3);
+}
+
+/* Botón */
+.btn-contact {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 999px;
+  padding: 0.7rem 2.2rem;
+  border: none;
+  font-size: 0.98rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.btn-contact:hover {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-contact-hero {
+    padding-top: 3rem;
+  }
+
+  .contact-form {
+    padding: 1.6rem 1.4rem;
+  }
+}
+
