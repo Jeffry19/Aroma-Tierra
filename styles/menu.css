@@ -31,6 +31,12 @@
   }
   
 }
+@media (max-width: 772px) {
+  .hero-text-about{
+    left: 130px;
+
+  }
+}
 
 
 
