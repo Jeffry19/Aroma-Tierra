@@ -29,6 +29,16 @@
     object-fit: cover;
     height: 300px;
   }
+
+  .container-compromiso-about{
+  width: 100% !important;
+  text-align: center;
+  }
+
+  .container-compromiso-about p{
+    font-size: var(--tamano-letra-base) !important;
+    text-align: justify !important;
+  }
   
 }
 @media (max-width: 772px) {
