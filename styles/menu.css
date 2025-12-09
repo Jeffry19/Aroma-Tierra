@@ -89,6 +89,16 @@
   overflow-y: scroll;
   height: 500px;
 }
+.menu-bebidas li:hover::before
+{
+  content: "☕ ";
+  transition: .3s;
+}
+.menu-alimentos li:hover::before{
+  content: "🥐 ";
+  transition: .3s;
+}
+
 
 @media (max-width: 992px) {
   .container-menu-aside {
